@@ -1,0 +1,115 @@
+Password:
+Sorry, try again.
+Password:
+==> This script will install:
+/opt/homebrew/bin/brew
+/opt/homebrew/share/doc/homebrew
+/opt/homebrew/share/man/man1/brew.1
+/opt/homebrew/share/zsh/site-functions/_brew
+/opt/homebrew/etc/bash_completion.d/brew
+/opt/homebrew
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /usr/sbin/chown -R mhl-electronic-studio-mbp-2:admin /opt/homebrew
+==> Downloading and installing Homebrew...
+remote: Enumerating objects: 444, done.
+remote: Counting objects: 100% (444/444), done.
+remote: Compressing objects: 100% (220/220), done.
+remote: Total 444 (delta 234), reused 404 (delta 212), pack-reused 0
+Receiving objects: 100% (444/444), 282.86 KiB | 5.14 MiB/s, done.
+Resolving deltas: 100% (234/234), completed with 23 local objects.
+From https://github.com/Homebrew/brew
+   e8b142da0b..d5d380e1f4  master        -> origin/master
+   46549ddc11..ce63b606bc  strict-parser -> origin/strict-parser
+ * [new tag]               4.2.18        -> 4.2.18
+Reset branch 'stable'
+==> Updating Homebrew...
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+mhl-electronic-studio-mbp-2@MHLElec2sLaptop ~ % brew help
+Example usage:
+  brew search TEXT|/REGEX/
+  brew info [FORMULA|CASK...]
+  brew install FORMULA|CASK...
+  brew update
+  brew upgrade [FORMULA|CASK...]
+  brew uninstall FORMULA|CASK...
+  brew list [FORMULA|CASK...]
+
+Troubleshooting:
+  brew config
+  brew doctor
+  brew install --verbose --debug FORMULA|CASK
+
+Contributing:
+  brew create URL [--no-fetch]
+  brew edit [FORMULA|CASK...]
+
+Further help:
+  brew commands
+  brew help [COMMAND]
+  man brew
+  https://docs.brew.sh
+mhl-electronic-studio-mbp-2@MHLElec2sLaptop ~ % brew install git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.44.0
+################################################################################################################################# 100.0%
+==> Fetching dependencies for git: gettext and pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.5
+################################################################################################################################# 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:06ee5992f8a7dbf85a1b0e4c6311029cefda6d70852e5abd28f2e8e30d27cfcf
+################################################################################################################################# 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.43
+################################################################################################################################# 100.0%
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:4369d231c0a816d72fd879e50ac170c4c43fea24772ea9ca2cb1e5c86de24418
+################################################################################################################################# 100.0%
+==> Fetching git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:d43e086b5f28ac4cdd774bda38ae8f510a8324735c6fecc916f1a1c258f2d65e
+################################################################################################################################# 100.0%
+==> Installing dependencies for git: gettext and pcre2
+==> Installing git dependency: gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.5
+Already downloaded: /Users/mhl-electronic-studio-mbp-2/Library/Caches/Homebrew/downloads/447e45b77bb47ede0377f7eab1863825298ecaaaeed0bbd84aca3bd300b00508--gettext-0.22.5.bottle_manifest.json
+==> Pouring gettext--0.22.5.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.22.5: 2,043 files, 24.4MB
+==> Installing git dependency: pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.43
+Already downloaded: /Users/mhl-electronic-studio-mbp-2/Library/Caches/Homebrew/downloads/4c12870adcfbf27eeeae4f44a420311ca3449f06a2fd8f6fcfe3d13db18087b4--pcre2-10.43.bottle_manifest.json
+==> Pouring pcre2--10.43.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.43: 234 files, 6.3MB
+==> Installing git
+==> Pouring git--2.44.0.arm64_ventura.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.44.0: 1,649 files, 50.8MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+mhl-electronic-studio-mbp-2@MHLElec2sLaptop ~ % 
