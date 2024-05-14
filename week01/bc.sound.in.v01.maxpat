@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 189.0, 159.0, 837.0, 609.0 ],
+		"rect" : [ 144.0, 111.0, 1005.0, 776.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.999063432216644, 391.0, 61.0, 22.0 ],
+					"patching_rect" : [ 46.999063432216644, 387.0, 61.0, 22.0 ],
 					"text" : "send~ in1"
 				}
 
@@ -158,7 +158,7 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 65.0,
+					"clipheight" : 43.0,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/synthesis-techniques-SS2024/synth-tech-media-master/speech/431165__inspectorj__voice-request-32-okay-chief-ch.wav",
@@ -168,6 +168,17 @@
 								"loop" : 0,
 								"content_state" : 								{
 
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/mhl-electronic-studio-mbp-2/Desktop/Synthesis Techniques SS24/synth-tech-media/week01/synth-tech-media-master/instrumental.samples/648437__timouse__piano-loop-21.wav",
+								"filename" : "648437__timouse__piano-loop-21.wav",
+								"filekind" : "audiofile",
+								"id" : "u090002083",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
 								}
 
 							}
@@ -458,23 +469,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "431165__inspectorj__voice-request-32-okay-chief-ch.wav",
-				"bootpath" : "~/Desktop/synthesis-techniques-SS2024/synth-tech-media-master/speech",
-				"patcherrelativepath" : "../synth-tech-media-master/speech",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "476652__inspectorj__request-40-open-the-door.wav",
-				"bootpath" : "~/Desktop/synthesis-techniques-SS2024/synth-tech-media-master/speech",
-				"patcherrelativepath" : "../synth-tech-media-master/speech",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

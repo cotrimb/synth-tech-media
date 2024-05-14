@@ -40,11 +40,22 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 20.0, 109.0, 82.0, 22.0 ],
+					"text" : "random.notes"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 88.0, 82.0, 22.0 ],
+					"patching_rect" : [ 20.0, 80.0, 82.0, 22.0 ],
 					"text" : "bc.midi.in.v01"
 				}
 
@@ -85,36 +96,29 @@
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "431165__inspectorj__voice-request-32-okay-chief-ch.wav",
-				"bootpath" : "~/Desktop/synthesis-techniques-SS2024/synth-tech-media-master/speech",
-				"patcherrelativepath" : "../synth-tech-media-master/speech",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "476652__inspectorj__request-40-open-the-door.wav",
-				"bootpath" : "~/Desktop/synthesis-techniques-SS2024/synth-tech-media-master/speech",
-				"patcherrelativepath" : "../synth-tech-media-master/speech",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bc.midi.in.v01.maxpat",
-				"bootpath" : "~/Desktop/synthesis-techniques-SS2024/week1",
+				"bootpath" : "~/Desktop/Synthesis Techniques SS24/synth-tech-media/week01",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bc.sound.in.v01.maxpat",
-				"bootpath" : "~/Desktop/synthesis-techniques-SS2024/week1",
+				"bootpath" : "~/Desktop/Synthesis Techniques SS24/synth-tech-media/week01",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bc.sound.out.v01.maxpat",
-				"bootpath" : "~/Desktop/synthesis-techniques-SS2024/week1",
+				"bootpath" : "~/Desktop/Synthesis Techniques SS24/synth-tech-media/week01",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random.notes.maxpat",
+				"bootpath" : "~/Desktop/Synthesis Techniques SS24/synth-tech-media/week01",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

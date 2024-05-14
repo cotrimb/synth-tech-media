@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 94.0, 187.0, 640.0, 480.0 ],
+		"rect" : [ 764.0, 207.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -66,8 +66,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 328.999063432216644, 81.0, 81.0, 22.0 ],
-					"text" : "receive~ out2"
+					"patching_rect" : [ 328.999063432216644, 81.0, 74.0, 22.0 ],
+					"text" : "receive~ in1"
 				}
 
 			}
@@ -78,8 +78,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 190.0, 81.0, 81.0, 22.0 ],
-					"text" : "receive~ out1"
+					"patching_rect" : [ 190.0, 81.0, 74.0, 22.0 ],
+					"text" : "receive~ in1"
 				}
 
 			}
