@@ -66,8 +66,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 328.999063432216644, 81.0, 74.0, 22.0 ],
-					"text" : "receive~ in1"
+					"patching_rect" : [ 328.999063432216644, 81.0, 81.0, 22.0 ],
+					"text" : "receive~ out2"
 				}
 
 			}
@@ -78,8 +78,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 190.0, 81.0, 74.0, 22.0 ],
-					"text" : "receive~ in1"
+					"patching_rect" : [ 190.0, 81.0, 81.0, 22.0 ],
+					"text" : "receive~ out1"
 				}
 
 			}
